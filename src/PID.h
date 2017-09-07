@@ -1,6 +1,10 @@
 #ifndef PID_H
 #define PID_H
 
+#include <vector>
+
+using namespace std;
+
 class PID
 {
 public:
@@ -43,8 +47,11 @@ public:
   */
   double TotalError();
 
-  // private:
-  //   std::vector<double> dp;
+private:
+  void twiddle(double cte);
+  double bestErr;
+  vector<double> p;
+  vector<double> dp;
 };
 
 #endif /* PID_H */
