@@ -1,7 +1,8 @@
 #ifndef PID_H
 #define PID_H
 
-class PID {
+class PID
+{
 public:
   /*
   * Errors
@@ -12,7 +13,7 @@ public:
 
   /*
   * Coefficients
-  */ 
+  */
   double Kp;
   double Ki;
   double Kd;
@@ -41,6 +42,9 @@ public:
   * Calculate the total PID error.
   */
   double TotalError();
+
+  // private:
+  //   std::vector<double> dp;
 };
 
 #endif /* PID_H */
