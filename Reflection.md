@@ -10,7 +10,7 @@ I've implemented a simple PID controller in C++.
 It is able to drive a car around the track in the Udacity simulator.
 A video of my final Solution is available on Youtube:
 
-[![Alt text for your video](https://img.youtube.com/vi/I7VB-3qC2Ps/0.jpg)](http://www.youtube.com/watch?v=I7VB-3qC2Ps)
+[![PID Controlled Simulator](https://i9.ytimg.com/vi/I7VB-3qC2Ps/hqdefault.jpg?sqp=CKCSxs0F&rs=AOn4CLCBofo6Bw75B-pIGCeLBApcRlBivA)](http://www.youtube.com/watch?v=I7VB-3qC2Ps)
 
 
 At the beginning I've used the parameters from the lessons before:
